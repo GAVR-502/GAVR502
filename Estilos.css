@@ -1,0 +1,51 @@
+
+
+body {
+	background:#dddddd;
+}
+header {
+	position: fixed;
+	height: 150px;
+	width: 100%;
+	overflow: hidden;
+	background:#6946b5;
+	margin-bottom:20px;
+}
+.wrapper {
+	
+	width: 10%;
+	max-width:1000%;
+	margin: auto;
+	overflow: hide
+}
+
+header .logo {
+	position: fixed;
+	height: 100px;
+	color: #233362;
+	font-size: 50px;
+	line-height:100px;
+	float: left;
+} 
+
+.header2{
+	position: fixed;
+	height: 100px;
+}
+
+.header .logo{
+	line-height: 200px;
+	font-size: 50px;
+}
+
+.contenido {
+	padding-top:150px;
+}
+
+@media screen and(max-width: 950px) {
+	header.logo{
+		width:100%;
+		text-align: center;
+	}
+
+}
